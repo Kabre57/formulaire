@@ -1,16 +1,19 @@
-// types.ts
-
-export interface Notification {
+export interface Technician {
   id: number;
-  title: string;
-  message: string;
-  date: string;
-  read: boolean;
+  firstName: string;
+  lastName: string;
+  contact: string;
 }
 
+export interface MissionType {
+  id: number;
+  name: string;
+}
+
+// src/types/types.ts
 export interface Mission {
   id: number;
-  name: string; // Assurez-vous que cette propriété est incluse
+  name: string;
   technicians: string[];
   site: string;
   type: string;

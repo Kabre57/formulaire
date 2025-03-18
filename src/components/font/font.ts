@@ -1,7 +1,4 @@
-// fonts.ts
+import { Inter, Roboto } from 'next/font/google';
 
-// Exemple d'importation de polices
-export const fonts = {
-  primary: "'Roboto', sans-serif",
-  secondary: "'Open Sans', sans-serif",
-};
+export const inter = Inter({ subsets: ['latin'] });
+export const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
