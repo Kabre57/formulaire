@@ -1,0 +1,13 @@
+.technician-select-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .technician-select-row select {
+    flex-grow: 1;
+  }
+  
+  .technician-select-row button {
+    margin-left: 0.5rem;
+  }

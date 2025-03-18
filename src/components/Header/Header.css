@@ -1,0 +1,24 @@
+header {
+    background: linear-gradient(to right, #4f46e5, #7c3aed);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  @media (min-width: 640px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  header button {
+    transition: background-color 0.3s ease;
+  }
+  
+  header button:hover {
+    background-color: #4338ca;
+  }
