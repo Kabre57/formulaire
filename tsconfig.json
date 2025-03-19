@@ -18,20 +18,10 @@
         "name": "next"
       }
     ],
-    "baseUrl": "src",  // Optionnel : définit le dossier de base pour les chemins d'importation
     "paths": {
-      "@/*": ["./*"],   // Alias pour le dossier src
-      "@types/*": ["components/types/*"],  // Alias pour les types
-      "@data/*": ["components/data/*"]      // Alias pour les données
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

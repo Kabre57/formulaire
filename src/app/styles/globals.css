@@ -1,0 +1,35 @@
+/* globals.css */
+
+html, body {
+    height: 100%; /* Assure que le corps et le HTML prennent toute la hauteur */
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+body {
+    display: flex; /* Utiliser flexbox pour le corps */
+    flex-direction: column; /* Organiser les enfants en colonne */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column; /* Organiser les enfants en colonne */
+    flex: 1; /* Permet au conteneur de prendre toute la hauteur disponible */
+}
+
+main {
+    flex-grow: 1; /* Permet au contenu principal de croître et occuper l'espace restant */
+}
+
+.bg-primary {
+    background-color: #5D5CDE;
+}
+
+.bg-light {
+    background-color: #FFFFFF;
+}
+
+.bg-dark {
+    background-color: #181818;
+}
+
+/* Ajoutez d'autres styles ici */
