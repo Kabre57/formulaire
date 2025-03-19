@@ -1,3 +1,4 @@
+// src/app/page.tsx
 'use client'; // Ajoutez cette ligne en haut du fichier
 
 import Header from './components/Header';
@@ -8,7 +9,6 @@ import Rapports from './components/Rapports';
 import Validations from './components/Validations';
 import Parametres from './components/Parametres';
 import { useState } from 'react';
-import './styles/globals.css';
 
 const Page = () => {
     const [activeTab, setActiveTab] = useState('calendar'); // État pour gérer l'onglet actif

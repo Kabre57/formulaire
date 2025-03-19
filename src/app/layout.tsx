@@ -1,4 +1,5 @@
-import './globals.css';
+// src/app/layout.tsx
+import './styles/globals.css'; // Assurez-vous que ce chemin est correct
 
 export const metadata = {
   title: 'Progitek - Gestion des Plannings',

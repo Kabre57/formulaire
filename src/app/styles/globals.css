@@ -1,23 +1,20 @@
-/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html, body {
-    height: 100%; /* Assure que le corps et le HTML prennent toute la hauteur */
-    margin: 0; /* Enlève les marges par défaut */
-}
-
-body {
-    display: flex; /* Utiliser flexbox pour le corps */
-    flex-direction: column; /* Organiser les enfants en colonne */
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .app-container {
-    display: flex;
-    flex-direction: column; /* Organiser les enfants en colonne */
-    flex: 1; /* Permet au conteneur de prendre toute la hauteur disponible */
+    flex: 1;
 }
 
 main {
-    flex-grow: 1; /* Permet au contenu principal de croître et occuper l'espace restant */
+    flex-grow: 1;
 }
 
 .bg-primary {
